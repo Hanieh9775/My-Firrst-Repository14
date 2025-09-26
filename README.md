@@ -1,5 +1,5 @@
 import requests
-from flask import Flask, request, render_template_str
+from flask import Flask, request, render_template_string
 
 app = Flask(__name__)
 API_KEY = "your_openweathermap_api_key"  # replace with your own API key
